@@ -1,0 +1,733 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Lato", serif;
+}
+
+
+
+/*****? Start Header Section *****/
+.container {
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.navbar {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .cInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 30px;
+    background-color: blue;
+    border-radius: 20px 20px 0px 20px;
+    color: white;
+    animation-name: cInfo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    font-size: 25px;
+}
+
+@keyframes cInfo {
+    0% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: gold;
+    }
+
+    100% {
+        background-color: blue;
+    }
+}
+
+/*****? End Header Section *****/
+
+
+
+/*****? Start Banner Section *****/
+.banner-section {
+    width: 100%;
+    height: auto;
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.content {
+    flex-basis: 60%;
+}
+
+.content-part h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.content-part h2 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.content-part h3 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.contact {
+    flex-basis: 40%;
+}
+
+.contact-form {
+    max-width: 350px;
+    background-color: rgb(243, 243, 243);
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.contact-form h3 {
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 25px 0px;
+}
+
+.contact-form>input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.contact-form input:focus {
+    outline: none;
+    border: 1px solid rgb(56, 93, 165);
+    box-shadow: 0px 0px 0px 3px rgb(133, 187, 245);
+}
+
+.captcha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.captcha input {
+    flex-basis: 40%;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.captcha .captcha-code {
+    flex-basis: 40%;
+    background-color: gold;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+.contact-form p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.contact-form p span {
+    color: blue;
+    cursor: pointer;
+}
+
+.contact-form>button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px 10px;
+    background-color: rgb(37, 105, 212);
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+/*****? End Banner Section *****/
+
+
+
+/*****? Start Packing Videos Section *****/
+.packing-video {
+    width: 100%;
+}
+
+.packing-video-mid {
+    max-width: 1170px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.packing-video-mid h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    margin-bottom: 40px;
+}
+
+.packing-video-mid h1 i {
+    margin-right: 10px;
+}
+
+.packing-video-mid h1 span {
+    color: gold;
+}
+
+.videos {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-item {
+    flex-basis: 30%;
+    margin: 1.5%;
+}
+
+.video-item iframe {
+    border-radius: 15px;
+}
+
+.video-item h3 {
+    color: blue;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*****? End Packing Videos Section *****/
+
+
+
+/*****? Start Core Services Section *****/
+.core-services {
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+}
+
+.core-services-mid {
+    max-width: 1170px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.core-services-mid h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    padding: 40px 0;
+}
+
+.core-services-mid h1 i {
+    margin-right: 10px;
+}
+
+.core-services-mid h1 span {
+    color: gold;
+}
+
+.core-services-part {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.core-services-item {
+    flex-basis: 48%;
+    margin: 1%;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    border-radius: 15px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.core-services-item img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.core-services-item h2 {
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(3, 95, 174);
+    margin-bottom: 10px;
+}
+
+.core-services-item p {
+    color: rgb(122, 129, 135);
+    margin: 10px 20px;
+    text-align: justify;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+}
+
+.core-services-item button {
+    background-color: gold;
+    padding: 8px 15px;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #ccc3c3;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    bottom: 10px;
+}
+
+/*****? End Core Services Section *****/
+
+
+
+/*****? Start Why Packshifts Section *****/
+.why-packshifts {
+    width: 100%;
+    background-color: white;
+}
+
+.why-packshifts-mid {
+    max-width: 1170px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.why-packshifts-mid h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    padding-bottom: 30px;
+}
+
+.why-packshifts-mid h1 i {
+    margin-right: 10px;
+}
+
+.why-packshifts-mid h1 span {
+    color: gold;
+}
+
+.why-packshifts-mid p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.packshifts-boxes {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.packshifts-boxes .box {
+    flex-basis: 23%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.packshifts-boxes .box p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+/*****? End Why Packshifts Section *****/
+
+
+
+/*****? Start Our achievement Section *****/
+.our-achievement {
+    width: 100%;
+    background-color: rgb(61, 122, 217);
+}
+
+.our-achievement-mid {
+    max-width: 1170px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.our-achievement-mid h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.our-achievement-mid h1 i {
+    margin-right: 10px;
+}
+
+.our-achievement-mid>p {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.achieve-box {
+    display: flex;
+}
+
+.achieve-box>.box {
+    flex-basis: 15%;
+    margin: 0.8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*****? End Our achievement Section *****/
+
+
+
+/*****? Start Happy Customers Section *****/
+.happy-customers {
+    width: 100%;
+    background-color: white;
+}
+
+.happy-customers-mid {
+    max-width: 1170px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.happy-customers-mid h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    padding-bottom: 30px;
+}
+
+.happy-customers-mid h1 i {
+    margin-right: 10px;
+}
+
+.happy-customers-mid h1 span {
+    color: gold;
+}
+
+.bio-data {
+    max-width: 900px;
+    margin: auto;
+    padding: 100px 100px;
+    background-color: rgb(62, 122, 217);
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: relative;
+}
+
+.profile-pick {
+    background-color: gold;
+    max-width: 180px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 60px;
+    left: -90px;
+}
+
+.profile-pick h3 {
+    font-size: 15px;
+}
+
+.profile-pick img {
+    width: 100px;
+    height: 100px;
+}
+
+/*****? End Happy Customers Section *****/
+
+
+
+/*****? Start Our Clients Section *****/
+.our-clients {
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+}
+
+.our-clients-mid {
+    width: 1170px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.our-clients-mid h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    padding-bottom: 30px;
+}
+
+.our-clients-mid h1 i {
+    margin-right: 10px;
+}
+
+.our-clients-mid h1 span {
+    color: gold;
+}
+
+.our-clients-mid-img {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.our-clients-mid-img img {
+    flex-basis: 23%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+/*****? End Our Clients Section *****/
+
+
+
+/*****? Start Our Address Section *****/
+.our-address {
+    width: 100%;
+    background-color: white;
+}
+
+.our-address-mid {
+    max-width: 1170px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.our-address-mid h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    padding-bottom: 30px;
+}
+
+.our-address-mid h1 i {
+    margin-right: 10px;
+}
+
+.our-address-mid h1 span {
+    color: gold;
+}
+
+.our-address-mid-box {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 20px;
+}
+
+.our-address-mid-box>i {
+    font-size: 50px;
+    color: gold;
+}
+
+.our-address-mid-box h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.our-address-mid-box p {
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.our-address-mid-box .cInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 30px;
+    background-color: blue;
+    border-radius: 20px 20px 0px 20px;
+    color: white;
+    animation-name: cInfo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    font-size: 25px;
+}
+
+@keyframes cInfo {
+    0% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: gold;
+    }
+
+    100% {
+        background-color: blue;
+    }
+}
+
+/*****? End Our Address Section *****/
+
+
+
+/*****? Start Footer Section *****/
+.footer {
+    width: 100%;
+    background-color: rgb(59, 120, 216);
+}
+
+.footer-mid {
+    max-width: 1170px;
+    margin: auto;
+    padding: 40px 0px 20px 0px;
+}
+
+.icon-policy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.icon .fa-youtube {
+    color: red;
+}
+
+.policy p {
+    color: white;
+}
+
+.policy p a {
+    color: white;
+}
+
+.policy p a:hover {
+    color: gold;
+}
+
+.footer-mid>hr {
+    height: 2px;
+    background-color: white;
+}
+
+.footer-mid>p {
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}
+
+/*****? End Footer Section *****/
+
+
+
+/*****? Start Truck Section *****/
+.truck-box {
+    position: fixed;
+    bottom: 10px;
+    left: -120px;
+    animation: truck 7s linear infinite;
+}
+
+.truck {
+    position: relative;
+}
+
+.wheel {
+    position: absolute;
+    bottom: -10px;
+}
+
+.wheel img:nth-child(1) {
+    margin-left: 15px;
+}
+
+.wheel img:nth-child(2) {
+    margin-left: 55px;
+}
+
+@keyframes truck {
+    0% {
+        left: -120px;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+/*****? End Truck Section *****/

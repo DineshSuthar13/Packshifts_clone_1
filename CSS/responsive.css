@@ -1,0 +1,1175 @@
+@media only screen and (min-width:1000px) and (max-width:1210px) {
+
+    /*****? Start Header Section *****/
+    .container {
+        padding: 0px 20px;
+    }
+
+    /*****? End Header Section *****/
+
+
+
+    /*****? Start Banner Section *****/
+    .banner-section {
+        padding: 0px 20px;
+    }
+
+    /*****? End Banner Section *****/
+
+
+
+    /*****? Start Packing Videos Section *****/
+    .video-item {
+        flex-basis: 30.3%;
+        margin: 1.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-item iframe {
+        width: 300px;
+    }
+
+    /*****? End Packing Videos Section *****/
+
+
+
+    /*****? Start Core Services Section *****/
+    .core-services {
+        padding: 0px 20px;
+    }
+
+    /*****? End Core Services Section *****/
+
+
+
+    /*****? Start Why Packshifts Section *****/
+    .why-packshifts {
+        padding: 0px 20px;
+    }
+
+    /*****? End Why Packshifts Section *****/
+
+
+
+    /*****? Start Happy Customers Section *****/
+    .happy-customers-mid {
+        max-width: 770px;
+    }
+
+    .profile-pick {
+        top: 20%;
+        left: -90px;
+    }
+
+    /*****? End Happy Customers Section *****/
+
+
+
+    /*****? Start Our Clients Section *****/
+    .our-clients-mid {
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .our-clients-mid-img {
+        display: flex;
+        gap: 10px;
+    }
+
+    /*****? End Our Clients Section *****/
+
+
+
+    /*****? Start Footer Section *****/
+    .footer {
+        padding: 0px 20px;
+    }
+
+    /*****? End Footer Section *****/
+}
+
+
+
+@media only screen and (min-width:800px) and (max-width:999px) {
+
+    /*****? Start Header Section *****/
+    .container {
+        padding: 0px 20px;
+    }
+
+    /*****? End Header Section *****/
+
+
+
+    /*****? Start Banner Section *****/
+    .banner-section {
+        padding: 0px 20px;
+    }
+
+    .content-part h1 {
+        font-size: 20px;
+    }
+
+    .content-part h2 {
+        font-size: 16px;
+    }
+
+    .content-part h3 {
+        font-size: 12px;
+    }
+
+    /*****? End Banner Section *****/
+
+
+
+    /*****? Start Packing Videos Section *****/
+    .packing-video {
+        padding: 0px 20px;
+    }
+
+    .video-item {
+        flex-basis: 30.3%;
+        margin: 1.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-item>iframe {
+        width: 230px;
+    }
+
+    /*****? End Packing Videos Section *****/
+
+
+
+    /*****? Start Core Services Section *****/
+    .core-services {
+        padding: 0px 20px;
+    }
+
+    /*****? End Core Services Section *****/
+
+
+
+    /*****? Start Why Packshifts Section *****/
+    .why-packshifts {
+        padding: 0px 20px;
+    }
+
+    /*****? End Why Packshifts Section *****/
+
+
+
+    /*****? Start Our achievement Section *****/
+    .achieve-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .achieve-box>.box {
+        flex-basis: 23%;
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*****? End Our achievement Section *****/
+
+
+
+    /*****? Start Happy Customers Section *****/
+    .happy-customers-mid {
+        max-width: 570px;
+        padding: 20px 0px;
+    }
+
+    .profile-pick {
+        top: 28%;
+        left: -90px;
+    }
+
+    /*****? End Happy Customers Section *****/
+
+
+
+    /*****? Start Our Clients Section *****/
+    .our-clients-mid {
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .our-clients-mid-img {
+        display: flex;
+    }
+
+    .our-clients-mid-img>.img {
+        flex-basis: 20%;
+        margin: 1%;
+    }
+
+    .our-clients-mid-img>.img>img {
+        width: 100%;
+    }
+
+    /*****? End Our Clients Section *****/
+
+
+
+    /*****? Start Footer Section *****/
+    .footer {
+        padding: 0px 20px;
+    }
+
+    /*****? End Footer Section *****/
+}
+
+
+
+@media only screen and (min-width:600px) and (max-width:799px) {
+
+    /*****? Start Header Section *****/
+    .container {
+        padding: 0px 20px;
+    }
+
+    /*****? End Header Section *****/
+
+
+
+    /*****? Start Banner Section *****/
+    .banner-section {
+        padding: 0px 20px;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .content-part h1 {
+        font-size: 20px;
+    }
+
+    .content-part h2 {
+        font-size: 16px;
+    }
+
+    .content-part h3 {
+        font-size: 12px;
+    }
+
+    .contact {
+        margin: auto;
+    }
+
+    .contact-form {
+        max-width: 100%;
+    }
+
+    .captcha {
+        display: flex;
+        gap: 2%;
+    }
+
+    .captcha input {
+        flex-basis: 49%;
+    }
+
+    .captcha .captcha-code {
+        flex-basis: 49%;
+    }
+
+    /*****? End Banner Section *****/
+
+
+
+    /*****? Start Packing Videos Section *****/
+    .packing-video {
+        padding: 0px 20px;
+    }
+
+    .videos {
+        justify-content: center;
+    }
+
+    .video-item {
+        flex-basis: 48%;
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-item>iframe {
+        max-width: 100%;
+    }
+
+    /*****? End Packing Videos Section *****/
+
+
+
+    /*****? Start Core Services Section *****/
+    .core-services {
+        padding: 0px 20px;
+    }
+
+    /*****? End Core Services Section *****/
+
+
+
+    /*****? Start Why Packshifts Section *****/
+    .why-packshifts {
+        padding: 0px 20px;
+    }
+
+    /*****? End Why Packshifts Section *****/
+
+
+
+    /*****? Start Our achievement Section *****/
+    .our-achievement {
+        padding: 0px 20px;
+    }
+
+    .achieve-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .achieve-box>.box {
+        flex-basis: 31%;
+        margin: 1.1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*****? End Our achievement Section *****/
+
+
+    /*****? Start Happy Customers Section *****/
+    .happy-customers-mid {
+        max-width: 100%;
+        padding: 20px 0px;
+    }
+
+    .profile-pick {
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .bio-data {
+        padding: 280px 20px 20px 20px;
+        margin: 0px 20px;
+    }
+
+    /*****? End Happy Customers Section *****/
+
+
+
+    /*****? Start Our Clients Section *****/
+    .our-clients-mid {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .our-clients-mid-img {
+        display: flex;
+    }
+
+    .our-clients-mid-img>.img {
+        flex-basis: 20%;
+        margin: 1%;
+    }
+
+    .our-clients-mid-img>.img>img {
+        width: 100%;
+    }
+
+    /*****? End Our Clients Section *****/
+
+
+
+    /*****? Start Footer Section *****/
+    .footer {
+        padding: 0px 20px;
+    }
+
+    /*****? End Footer Section *****/
+}
+
+
+
+@media only screen and (min-width:400px) and (max-width:600px) {
+
+    /*****? Start Header Section *****/
+    .container {
+        padding: 0px 20px;
+    }
+
+    .navbar>.cInfo {
+        display: none;
+    }
+
+    /*****? End Header Section *****/
+
+
+
+    /*****? Start Banner Section *****/
+    .banner-section {
+        padding: 0px 20px;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .content-part h1 {
+        font-size: 20px;
+    }
+
+    .content-part h2 {
+        font-size: 16px;
+    }
+
+    .content-part h3 {
+        font-size: 12px;
+    }
+
+    .contact {
+        margin: auto;
+    }
+
+    .contact-form {
+        max-width: 100%;
+    }
+
+    .captcha {
+        display: flex;
+        gap: 2%;
+    }
+
+    .captcha input {
+        flex-basis: 49%;
+    }
+
+    .captcha .captcha-code {
+        flex-basis: 49%;
+    }
+
+    /*****? End Banner Section *****/
+
+
+
+    /*****? Start Packing Videos Section *****/
+    .packing-video {
+        padding: 0px 20px;
+    }
+
+    .videos {
+        justify-content: center;
+    }
+
+    .video-item {
+        flex-basis: 48%;
+        margin: 1%;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+    }
+
+    .video-item>iframe {
+        max-width: 100%;
+    }
+
+    /*****? End Packing Videos Section *****/
+
+
+
+    /*****? Start Core Services Section *****/
+    .core-services {
+        padding: 0px 20px;
+    }
+
+    .core-services-part {
+        flex-direction: column;
+    }
+
+    .core-services-item {
+        flex-basis: 100%;
+    }
+
+    /*****? End Core Services Section *****/
+
+
+
+    /*****? Start Why Packshifts Section *****/
+    .why-packshifts {
+        padding: 0px 20px;
+    }
+
+    .packshifts-boxes>.box {
+        flex-basis: 48%;
+        margin: 1%;
+    }
+
+    /*****? End Why Packshifts Section *****/
+
+
+
+    /*****? Start Our achievement Section *****/
+    .our-achievement {
+        padding: 0px 20px;
+    }
+
+    .achieve-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .achieve-box>.box {
+        flex-basis: 48%;
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    /*****? End Our achievement Section *****/
+
+
+    /*****? Start Happy Customers Section *****/
+    .happy-customers-mid {
+        max-width: 100%;
+        padding: 20px 0px;
+    }
+
+    .profile-pick {
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .bio-data {
+        padding: 280px 20px 20px 20px;
+        margin: 0px 20px;
+    }
+
+    /*****? End Happy Customers Section *****/
+
+
+
+    /*****? Start Our Clients Section *****/
+    .our-clients-mid {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .our-clients-mid-img {
+        display: flex;
+    }
+
+    .our-clients-mid-img>.img {
+        flex-basis: 20%;
+        margin: 1%;
+    }
+
+    .our-clients-mid-img>.img>img {
+        width: 100%;
+    }
+
+    /*****? End Our Clients Section *****/
+
+
+
+    /*****? Start Our Address Section *****/
+    .our-address-mid {
+        padding: 50px 20px;
+    }
+
+    /*****? End Our Address Section *****/
+
+
+
+    /*****? Start Footer Section *****/
+    .footer {
+        padding: 0px 20px;
+    }
+
+    /*****? End Footer Section *****/
+}
+
+
+
+@media only screen and (min-width:200px) and (max-width:400px) {
+
+    /*****? Start Header Section *****/
+    .container {
+        padding: 0px 20px;
+    }
+
+    .navbar>.cInfo {
+        display: none;
+    }
+
+    .container>.navbar>.logo>img {
+        width: 100px;
+    }
+
+    /*****? End Header Section *****/
+
+
+
+    /*****? Start Banner Section *****/
+    .banner-section {
+        padding: 0px 20px;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .content-part h1 {
+        font-size: 18px;
+    }
+
+    .content-part h2 {
+        font-size: 14px;
+    }
+
+    .content-part h3 {
+        font-size: 10px;
+    }
+
+    .india-iso {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .contact-form {
+        max-width: 100%
+    }
+
+    .captcha {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        gap: 2%;
+    }
+
+    .contact-form>input {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /*****? End Banner Section *****/
+
+
+
+    /*****? Start Packing Videos Section *****/
+    .packing-video {
+        padding: 0px 20px;
+    }
+
+    .videos {
+        justify-content: center;
+    }
+
+    .video-item {
+        flex-basis: 100%;
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+    }
+
+    .video-item>iframe {
+        max-width: 100%;
+    }
+
+    /*****? End Packing Videos Section *****/
+
+
+
+    /*****? Start Core Services Section *****/
+    .core-services {
+        padding: 0px 20px;
+    }
+
+    .core-services-part {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .core-services-item {
+        flex-basis: 100%;
+    }
+
+    .core-services-item button {
+        padding: 5px 10px;
+        font-size: 10px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+    }
+
+    /*****? End Core Services Section *****/
+
+
+
+    /*****? Start Why Packshifts Section *****/
+    .why-packshifts {
+        padding: 0px 20px;
+    }
+
+    .packshifts-boxes>.box {
+        flex-basis: 100%;
+    }
+
+    /*****? End Why Packshifts Section *****/
+
+
+
+    /*****? Start Our achievement Section *****/
+    .our-achievement {
+        padding: 0px 20px;
+    }
+
+    .achieve-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .achieve-box>.box {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    /*****? End Our achievement Section *****/
+
+
+    /*****? Start Happy Customers Section *****/
+    .happy-customers-mid {
+        max-width: 100%;
+        padding: 20px 0px;
+    }
+
+    .profile-pick {
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .bio-data {
+        padding: 280px 20px 20px 20px;
+        margin: 0px 20px;
+    }
+
+    .profile-pick {
+        max-width: 90%;
+    }
+
+    /*****? End Happy Customers Section *****/
+
+
+
+    /*****? Start Our Clients Section *****/
+    .our-clients-mid {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .our-clients-mid-img {
+        display: flex;
+        margin: 0px 10px;
+    }
+
+    .our-clients-mid-img>.img {
+        flex-basis: 20%;
+        margin: 1%;
+    }
+
+    .our-clients-mid-img>.img>img {
+        width: 100%;
+    }
+
+    /*****? End Our Clients Section *****/
+
+
+
+    /*****? Start Our Address Section *****/
+    .our-address-mid {
+        padding: 50px 20px;
+    }
+
+    .our-address-mid-box .cInfo {
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+
+    /*****? End Our Address Section *****/
+
+
+
+    /*****? Start Footer Section *****/
+    .footer {
+        padding: 0px 20px;
+    }
+
+    .icon {
+        font-size: 15px;
+    }
+
+    .policy p {
+        font-size: 10px;
+    }
+
+    /*****? End Footer Section *****/
+}
+
+
+
+@media only screen and (max-width:200px) {
+
+    /*****? Start Header Section *****/
+    .container {
+        padding: 0px 20px;
+    }
+
+    .navbar>.cInfo {
+        display: none;
+    }
+
+    .container>.navbar>.logo>img {
+        width: 100px;
+    }
+
+    /*****? End Header Section *****/
+
+
+
+    /*****? Start Banner Section *****/
+    .banner-section {
+        padding: 0px 20px;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .content-part h1 {
+        font-size: 18px;
+    }
+
+    .content-part h2 {
+        font-size: 14px;
+    }
+
+    .content-part h3 {
+        font-size: 10px;
+    }
+
+    .india-iso {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .contact-form {
+        max-width: 100%
+    }
+
+    .captcha {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        gap: 2%;
+    }
+
+    .contact-form>input {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /*****? End Banner Section *****/
+
+
+
+    /*****? Start Packing Videos Section *****/
+    .packing-video {
+        padding: 0px 20px;
+    }
+
+    .videos {
+        justify-content: center;
+    }
+
+    .video-item {
+        flex-basis: 100%;
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+    }
+
+    .video-item>iframe {
+        max-width: 100%;
+    }
+
+    /*****? End Packing Videos Section *****/
+
+
+
+    /*****? Start Core Services Section *****/
+    .core-services {
+        padding: 0px 20px;
+    }
+
+    .core-services-part {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .core-services-item {
+        flex-basis: 100%;
+    }
+
+    .core-services-item button {
+        padding: 5px 10px;
+        font-size: 10px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+    }
+
+    /*****? End Core Services Section *****/
+
+
+
+    /*****? Start Why Packshifts Section *****/
+    .why-packshifts {
+        padding: 0px 20px;
+    }
+
+    .packshifts-boxes>.box {
+        flex-basis: 100%;
+    }
+
+    /*****? End Why Packshifts Section *****/
+
+
+
+    /*****? Start Our achievement Section *****/
+    .our-achievement {
+        padding: 0px 20px;
+    }
+
+    .achieve-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .achieve-box>.box {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    /*****? End Our achievement Section *****/
+
+
+    /*****? Start Happy Customers Section *****/
+    .happy-customers-mid {
+        max-width: 100%;
+        padding: 20px 0px;
+    }
+
+    .profile-pick {
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .bio-data {
+        padding: 280px 20px 20px 20px;
+        margin: 0px 20px;
+    }
+
+    .profile-pick {
+        max-width: 90%;
+    }
+
+    /*****? End Happy Customers Section *****/
+
+
+
+    /*****? Start Our Clients Section *****/
+    .our-clients-mid {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .our-clients-mid-img {
+        display: flex;
+        margin: 0px 10px;
+    }
+
+    .our-clients-mid-img>.img {
+        flex-basis: 20%;
+        margin: 1%;
+    }
+
+    .our-clients-mid-img>.img>img {
+        width: 100%;
+    }
+
+    /*****? End Our Clients Section *****/
+
+
+
+    /*****? Start Our Address Section *****/
+    .our-address-mid {
+        padding: 50px 20px;
+    }
+
+    .our-address-mid-box .cInfo {
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+
+    /*****? End Our Address Section *****/
+
+
+
+    /*****? Start Footer Section *****/
+    .footer {
+        padding: 0px 20px;
+    }
+
+    .icon {
+        font-size: 15px;
+    }
+
+    .policy p {
+        font-size: 10px;
+    }
+
+    /*****? End Footer Section *****/
+}
